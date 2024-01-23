@@ -1,0 +1,15 @@
+package main
+
+import (
+	"fmt"
+)
+
+var kelvin float64 = 300
+var celsius float64
+var kelvinDecrementFixed float64 = 273.15
+
+func main() {
+	celsius = kelvin - kelvinDecrementFixed
+	fmt.Printf(" %g convertido para Celsius é igual a %g", kelvin, celsius)
+
+}
